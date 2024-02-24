@@ -1,11 +1,17 @@
 const mysql2 = require('mysql2');
 require('dotenv').config();
 
-const dbHost = process.env.DB_HOST;
-const dbUser = process.env.DB_USER;
-const dbPassword = process.env.DB_PASSWORD;
-const dbName = process.env.DB_NAME;
-const dbPort = process.env.DB_PORT;
+// const dbHost = process.env.DB_HOST;
+// const dbUser = process.env.DB_USER;
+// const dbPassword = process.env.DB_PASSWORD;
+// const dbName = process.env.DB_NAME;
+// const dbPort = process.env.DB_PORT;
+
+const dbHost = "15.235.154.180";
+const dbUser = "travelan_andamantur-db";
+const dbPassword = "Han_0647526359";
+const dbName = "travelan_andamantur-db";
+const dbPort = "3306";
 
 const getConn = mysql2.createPool({
     host: dbHost,
