@@ -24,9 +24,13 @@ const upload = multer({
     storage: storage
 })
 
-const url = process.env.API_URL;
-const key = process.env.API_KEY;
-const forword_url = process.env.FORWORD_PORT_URL;
+// const url = process.env.API_URL;
+// const key = process.env.API_KEY;
+// const forword_url = process.env.FORWORD_PORT_URL;
+
+const url = "https://api.slipok.com/api/line/apikey/17308";
+const key = "SLIPOKZ09PC8A";
+const forword_url = "http://34.143.226.105";
 
 
 router.post('/reserve', (req, res) => {
