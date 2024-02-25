@@ -30,7 +30,7 @@ const upload = multer({
 
 const url = "https://api.slipok.com/api/line/apikey/17308";
 const key = "SLIPOKZ09PC8A";
-const forword_url = "http://34.143.226.105";
+const forword_url = "https://35.240.198.180";
 
 
 router.post('/reserve', (req, res) => {
